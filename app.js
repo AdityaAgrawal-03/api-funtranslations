@@ -16,7 +16,7 @@ var serverURL = "";
 function addTextParametertoURL(textParameter) {
   var encodedURI = encodeURIComponent(textParameter);
 
-  if (serverURL === '') {
+  if (serverURL === "") {
     alert("Please select a language");
   }
 
