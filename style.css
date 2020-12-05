@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+:root {
+  /* --primary-color: #27272A; */
+  --primary-color: #1b262c;
+  --secondary-color: #1b505f;
+  --font-color: #F3F4F6;
+}
+
+body {
+  font-family: 'El Messiri', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+}
+
+/* header */ 
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.got-svg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin: 0 auto; */
+}
+
+.header h1 {
+  color: var(--font-color);
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.btn-valyrian, .btn-dothraki {
+  padding: 0.5rem 2rem;
+}
+
+.dany-svg {
+  width: 25rem;
+  height: 45vh;
+  margin-top: 0;
+}
+
+
+/* main section */
+
+
+
+.container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+textarea {
+  margin:  1rem;
+  padding: 1rem;
+  outline: none;
+  resize: none;
+  font-family: inherit;
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+  font-size: 20px;
+  border-radius: 0.5rem;
+  border: 2px solid var(--primary-color);
+  text-transform: uppercase;
+}
+
+#input-text {
+  margin-bottom: 0;
+}
+
+#translated-text {
+  margin-top: 0;
+}
+
+button {
+  cursor: pointer;
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+  border: none;
+  outline: none;
+  font-size: 25px;
+  font-family: inherit;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  transform: scale(0.98);
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer p {
+  margin: auto;
+  max-width: 600px;
+}
