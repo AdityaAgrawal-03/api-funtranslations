@@ -19,4 +19,4 @@
 * Rate of calling the api is 5 per hour.
 
 ### Demo
-![Screenshot of webiste](https://github.com/AdityaAgrawal-03/valyrian-translator/blob/master/demo/demo.png)
+![Screenshot of webiste](https://github.com/AdityaAgrawal-03/api-funtranslations/blob/master/demo/demo.png)
